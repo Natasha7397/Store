@@ -1,0 +1,29 @@
+c:\users\acer\documents\visual studio 2015\Projects\Store\Store\bin\Debug\Store.exe.config
+c:\users\acer\documents\visual studio 2015\Projects\Store\Store\bin\Debug\Store.exe
+c:\users\acer\documents\visual studio 2015\Projects\Store\Store\bin\Debug\Store.pdb
+c:\users\acer\documents\visual studio 2015\Projects\Store\Store\obj\Debug\Store.csprojResolveAssemblyReference.cache
+c:\users\acer\documents\visual studio 2015\Projects\Store\Store\obj\Debug\Store.Form1.resources
+c:\users\acer\documents\visual studio 2015\Projects\Store\Store\obj\Debug\Store.Properties.Resources.resources
+c:\users\acer\documents\visual studio 2015\Projects\Store\Store\obj\Debug\Store.csproj.GenerateResource.Cache
+c:\users\acer\documents\visual studio 2015\Projects\Store\Store\obj\Debug\Store.exe
+c:\users\acer\documents\visual studio 2015\Projects\Store\Store\obj\Debug\Store.pdb
+c:\users\acer\documents\visual studio 2015\Projects\Store\Store\obj\Debug\Store.Form2.resources
+c:\users\acer\documents\visual studio 2015\Projects\Store\Store\obj\Debug\Store.Form3.resources
+C:\Users\Acer\Google Диск\Курсовая\Store\Store\bin\Debug\Store.exe.config
+C:\Users\Acer\Google Диск\Курсовая\Store\Store\bin\Debug\Store.exe
+C:\Users\Acer\Google Диск\Курсовая\Store\Store\bin\Debug\Store.pdb
+C:\Users\Acer\Google Диск\Курсовая\Store\Store\obj\Debug\Store.Properties.Resources.resources
+C:\Users\Acer\Google Диск\Курсовая\Store\Store\obj\Debug\Store.csproj.GenerateResource.Cache
+C:\Users\Acer\Google Диск\Курсовая\Store\Store\obj\Debug\Store.exe
+C:\Users\Acer\Google Диск\Курсовая\Store\Store\obj\Debug\Store.pdb
+C:\Users\Acer\Google Диск\Курсовая\Store\Store\obj\Debug\Store.AuthorizationForm.resources
+C:\Users\Acer\Google Диск\Курсовая\Store\Store\obj\Debug\Store.MainForm.resources
+C:\Users\Acer\Google Диск\Курсовая\Store\Store\obj\Debug\Store.EditClientForm.resources
+C:\Users\Acer\Google Диск\Курсовая\Store\Store\obj\Debug\Store.ProductForm.resources
+C:\Users\Acer\Google Диск\Курсовая\Store\Store\obj\Debug\Store.ClientForm.resources
+C:\Users\Acer\Google Диск\Курсовая\Store\Store\obj\Debug\Store.PurveyorForm.resources
+C:\Users\Acer\Google Диск\Курсовая\Store\Store\obj\Debug\Store.EditProductForm.resources
+C:\Users\Acer\Google Диск\Курсовая\Store\Store\obj\Debug\Store.EditPurveyorForm.resources
+C:\Users\Acer\Google Диск\Курсовая\Store\Store\obj\Debug\Store.ChartForm.resources
+C:\Users\Acer\Google Диск\Курсовая\Store\Store\obj\Debug\Store.UserForm.resources
+C:\Users\Acer\Google Диск\Курсовая\Store\Store\obj\Debug\Store.csprojResolveAssemblyReference.cache
