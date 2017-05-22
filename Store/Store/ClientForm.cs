@@ -33,5 +33,10 @@ namespace Store
         {
            
         }
+
+        private void ClientForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

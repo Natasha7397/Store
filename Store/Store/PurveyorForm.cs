@@ -29,5 +29,15 @@ namespace Store
         {
             editForm.ShowDialog();
         }
+
+        private void TablePurveyor_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void PurveyorForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -27,3 +27,21 @@ C:\Users\Acer\Google Диск\Курсовая\Store\Store\obj\Debug\Store.EditP
 C:\Users\Acer\Google Диск\Курсовая\Store\Store\obj\Debug\Store.ChartForm.resources
 C:\Users\Acer\Google Диск\Курсовая\Store\Store\obj\Debug\Store.UserForm.resources
 C:\Users\Acer\Google Диск\Курсовая\Store\Store\obj\Debug\Store.csprojResolveAssemblyReference.cache
+D:\Store\Store\Store\bin\Debug\Store.exe.config
+D:\Store\Store\Store\obj\Debug\Store.exe
+D:\Store\Store\Store\obj\Debug\Store.pdb
+D:\Store\Store\Store\bin\Debug\Store.exe
+D:\Store\Store\Store\bin\Debug\Store.pdb
+D:\Store\Store\Store\obj\Debug\Store.csprojResolveAssemblyReference.cache
+D:\Store\Store\Store\obj\Debug\Store.AuthorizationForm.resources
+D:\Store\Store\Store\obj\Debug\Store.ChartForm.resources
+D:\Store\Store\Store\obj\Debug\Store.ClientForm.resources
+D:\Store\Store\Store\obj\Debug\Store.EditPurveyorForm.resources
+D:\Store\Store\Store\obj\Debug\Store.EditProductForm.resources
+D:\Store\Store\Store\obj\Debug\Store.EditClientForm.resources
+D:\Store\Store\Store\obj\Debug\Store.MainForm.resources
+D:\Store\Store\Store\obj\Debug\Store.ProductForm.resources
+D:\Store\Store\Store\obj\Debug\Store.Properties.Resources.resources
+D:\Store\Store\Store\obj\Debug\Store.PurveyorForm.resources
+D:\Store\Store\Store\obj\Debug\Store.UserForm.resources
+D:\Store\Store\Store\obj\Debug\Store.csproj.GenerateResource.Cache
