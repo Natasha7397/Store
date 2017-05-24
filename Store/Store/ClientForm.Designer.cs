@@ -49,7 +49,7 @@
             // 
             this.TableClient.AllowUserToAddRows = false;
             this.TableClient.AllowUserToDeleteRows = false;
-            this.TableClient.BackgroundColor = System.Drawing.SystemColors.Control;
+            this.TableClient.BackgroundColor = System.Drawing.Color.DeepSkyBlue;
             this.TableClient.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.TableClient.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
@@ -59,10 +59,11 @@
             this.Column5,
             this.Column6});
             this.TableClient.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.TableClient.GridColor = System.Drawing.SystemColors.Control;
             this.TableClient.Location = new System.Drawing.Point(3, 3);
             this.TableClient.Name = "TableClient";
             this.TableClient.ReadOnly = true;
-            this.TableClient.Size = new System.Drawing.Size(649, 280);
+            this.TableClient.Size = new System.Drawing.Size(649, 282);
             this.TableClient.TabIndex = 0;
             // 
             // Column1
@@ -103,39 +104,43 @@
             // 
             // Add
             // 
+            this.Add.BackColor = System.Drawing.SystemColors.Window;
             this.Add.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Add.Location = new System.Drawing.Point(3, 3);
             this.Add.Name = "Add";
-            this.Add.Size = new System.Drawing.Size(194, 30);
+            this.Add.Size = new System.Drawing.Size(220, 30);
             this.Add.TabIndex = 1;
             this.Add.Text = "Добавить";
-            this.Add.UseVisualStyleBackColor = true;
+            this.Add.UseVisualStyleBackColor = false;
             this.Add.Click += new System.EventHandler(this.Add_Click);
             // 
             // Edit
             // 
+            this.Edit.BackColor = System.Drawing.SystemColors.Window;
             this.Edit.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Edit.Location = new System.Drawing.Point(3, 39);
             this.Edit.Name = "Edit";
-            this.Edit.Size = new System.Drawing.Size(194, 30);
+            this.Edit.Size = new System.Drawing.Size(220, 30);
             this.Edit.TabIndex = 2;
             this.Edit.Text = "Редактировать";
-            this.Edit.UseVisualStyleBackColor = true;
+            this.Edit.UseVisualStyleBackColor = false;
             this.Edit.Click += new System.EventHandler(this.Edit_Click);
             // 
             // Delete
             // 
+            this.Delete.BackColor = System.Drawing.SystemColors.Window;
             this.Delete.Dock = System.Windows.Forms.DockStyle.Top;
             this.Delete.Location = new System.Drawing.Point(3, 75);
             this.Delete.Name = "Delete";
-            this.Delete.Size = new System.Drawing.Size(194, 30);
+            this.Delete.Size = new System.Drawing.Size(220, 30);
             this.Delete.TabIndex = 3;
             this.Delete.Text = "Удалить";
-            this.Delete.UseVisualStyleBackColor = true;
+            this.Delete.UseVisualStyleBackColor = false;
             this.Delete.Click += new System.EventHandler(this.Delete_Click);
             // 
             // tableLayoutPanel1
             // 
+            this.tableLayoutPanel1.BackColor = System.Drawing.SystemColors.Window;
             this.tableLayoutPanel1.ColumnCount = 2;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
@@ -152,29 +157,31 @@
             // 
             // tableLayoutPanel2
             // 
+            this.tableLayoutPanel2.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.tableLayoutPanel2.ColumnCount = 1;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel2.Controls.Add(this.Add, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.Delete, 0, 2);
             this.tableLayoutPanel2.Controls.Add(this.Edit, 0, 1);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(679, 113);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(658, 3);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 3;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(200, 110);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(226, 282);
             this.tableLayoutPanel2.TabIndex = 1;
             // 
             // ClientForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(887, 288);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "ClientForm";
+            this.ShowIcon = false;
             this.Text = "Клиенты";
             this.Load += new System.EventHandler(this.ClientForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.TableClient)).EndInit();

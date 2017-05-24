@@ -17,5 +17,10 @@ namespace Store
             InitializeComponent();
             this.CenterToScreen();
         }
+
+        private void ChartForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

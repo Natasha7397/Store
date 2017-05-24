@@ -16,10 +16,17 @@ namespace Store
         {
             InitializeComponent();
             this.CenterToScreen();
+           
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            NameText.Clear();
+            PhoneText.Clear();
+            EmailText.Clear();
+            INNText.Clear();
+            ScoreText.Clear();
+            AddressText.Clear();
             Close();
         }
     }

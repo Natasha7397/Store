@@ -49,7 +49,7 @@
             // 
             this.TablePurveyor.AllowUserToAddRows = false;
             this.TablePurveyor.AllowUserToDeleteRows = false;
-            this.TablePurveyor.BackgroundColor = System.Drawing.SystemColors.Control;
+            this.TablePurveyor.BackgroundColor = System.Drawing.Color.DeepSkyBlue;
             this.TablePurveyor.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.TablePurveyor.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
@@ -104,35 +104,38 @@
             // 
             // Add
             // 
+            this.Add.BackColor = System.Drawing.SystemColors.Window;
             this.Add.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Add.Location = new System.Drawing.Point(3, 3);
             this.Add.Name = "Add";
             this.Add.Size = new System.Drawing.Size(135, 28);
             this.Add.TabIndex = 2;
             this.Add.Text = "Добавить";
-            this.Add.UseVisualStyleBackColor = true;
+            this.Add.UseVisualStyleBackColor = false;
             this.Add.Click += new System.EventHandler(this.Add_Click);
             // 
             // Edit
             // 
+            this.Edit.BackColor = System.Drawing.SystemColors.Window;
             this.Edit.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Edit.Location = new System.Drawing.Point(3, 37);
             this.Edit.Name = "Edit";
             this.Edit.Size = new System.Drawing.Size(135, 28);
             this.Edit.TabIndex = 3;
             this.Edit.Text = "Редактировать";
-            this.Edit.UseVisualStyleBackColor = true;
+            this.Edit.UseVisualStyleBackColor = false;
             this.Edit.Click += new System.EventHandler(this.Edit_Click);
             // 
             // Delete
             // 
+            this.Delete.BackColor = System.Drawing.SystemColors.Window;
             this.Delete.Dock = System.Windows.Forms.DockStyle.Top;
             this.Delete.Location = new System.Drawing.Point(3, 71);
             this.Delete.Name = "Delete";
             this.Delete.Size = new System.Drawing.Size(135, 29);
             this.Delete.TabIndex = 4;
             this.Delete.Text = "Удалить";
-            this.Delete.UseVisualStyleBackColor = true;
+            this.Delete.UseVisualStyleBackColor = false;
             // 
             // tableLayoutPanel1
             // 
@@ -170,9 +173,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.ClientSize = new System.Drawing.Size(799, 277);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "PurveyorForm";
+            this.ShowIcon = false;
             this.Text = "Поставщики";
             this.Load += new System.EventHandler(this.PurveyorForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.TablePurveyor)).EndInit();

@@ -48,15 +48,17 @@
             // InfoLabel
             // 
             this.InfoLabel.AutoSize = true;
-            this.InfoLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.InfoLabel.BackColor = System.Drawing.Color.Transparent;
+            this.InfoLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.InfoLabel.Location = new System.Drawing.Point(69, 38);
             this.InfoLabel.Name = "InfoLabel";
-            this.InfoLabel.Size = new System.Drawing.Size(288, 29);
+            this.InfoLabel.Size = new System.Drawing.Size(289, 29);
             this.InfoLabel.TabIndex = 0;
             this.InfoLabel.Text = "Информация о поставщике";
             // 
             // NameText
             // 
+            this.NameText.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.NameText.Location = new System.Drawing.Point(184, 89);
             this.NameText.Multiline = true;
             this.NameText.Name = "NameText";
@@ -65,6 +67,7 @@
             // 
             // PhoneText
             // 
+            this.PhoneText.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.PhoneText.Location = new System.Drawing.Point(184, 137);
             this.PhoneText.Multiline = true;
             this.PhoneText.Name = "PhoneText";
@@ -73,6 +76,7 @@
             // 
             // EmailText
             // 
+            this.EmailText.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.EmailText.Location = new System.Drawing.Point(184, 193);
             this.EmailText.Multiline = true;
             this.EmailText.Name = "EmailText";
@@ -81,6 +85,7 @@
             // 
             // INNText
             // 
+            this.INNText.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.INNText.Location = new System.Drawing.Point(184, 257);
             this.INNText.Multiline = true;
             this.INNText.Name = "INNText";
@@ -89,6 +94,7 @@
             // 
             // ScoreText
             // 
+            this.ScoreText.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ScoreText.Location = new System.Drawing.Point(184, 312);
             this.ScoreText.Multiline = true;
             this.ScoreText.Name = "ScoreText";
@@ -97,6 +103,7 @@
             // 
             // AddressText
             // 
+            this.AddressText.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.AddressText.Location = new System.Drawing.Point(184, 373);
             this.AddressText.Multiline = true;
             this.AddressText.Name = "AddressText";
@@ -106,72 +113,79 @@
             // NameLabel
             // 
             this.NameLabel.AutoSize = true;
-            this.NameLabel.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.NameLabel.BackColor = System.Drawing.Color.Transparent;
+            this.NameLabel.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.NameLabel.Location = new System.Drawing.Point(12, 89);
             this.NameLabel.Name = "NameLabel";
-            this.NameLabel.Size = new System.Drawing.Size(148, 26);
+            this.NameLabel.Size = new System.Drawing.Size(148, 27);
             this.NameLabel.TabIndex = 9;
             this.NameLabel.Text = "Наименование";
             // 
             // PhoneLabel
             // 
             this.PhoneLabel.AutoSize = true;
-            this.PhoneLabel.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.PhoneLabel.BackColor = System.Drawing.Color.Transparent;
+            this.PhoneLabel.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.PhoneLabel.Location = new System.Drawing.Point(12, 140);
             this.PhoneLabel.Name = "PhoneLabel";
-            this.PhoneLabel.Size = new System.Drawing.Size(166, 26);
+            this.PhoneLabel.Size = new System.Drawing.Size(166, 27);
             this.PhoneLabel.TabIndex = 12;
             this.PhoneLabel.Text = "Номер телефона";
             // 
             // EmailLabel
             // 
             this.EmailLabel.AutoSize = true;
-            this.EmailLabel.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.EmailLabel.BackColor = System.Drawing.Color.Transparent;
+            this.EmailLabel.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.EmailLabel.Location = new System.Drawing.Point(12, 196);
             this.EmailLabel.Name = "EmailLabel";
-            this.EmailLabel.Size = new System.Drawing.Size(66, 26);
+            this.EmailLabel.Size = new System.Drawing.Size(67, 27);
             this.EmailLabel.TabIndex = 13;
             this.EmailLabel.Text = "E-mail";
             // 
             // INNLabel
             // 
             this.INNLabel.AutoSize = true;
-            this.INNLabel.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.INNLabel.BackColor = System.Drawing.Color.Transparent;
+            this.INNLabel.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.INNLabel.Location = new System.Drawing.Point(12, 260);
             this.INNLabel.Name = "INNLabel";
-            this.INNLabel.Size = new System.Drawing.Size(56, 26);
+            this.INNLabel.Size = new System.Drawing.Size(56, 27);
             this.INNLabel.TabIndex = 14;
             this.INNLabel.Text = "ИНН";
             // 
             // ScoreLabel
             // 
             this.ScoreLabel.AutoSize = true;
-            this.ScoreLabel.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ScoreLabel.BackColor = System.Drawing.Color.Transparent;
+            this.ScoreLabel.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ScoreLabel.Location = new System.Drawing.Point(12, 315);
             this.ScoreLabel.Name = "ScoreLabel";
-            this.ScoreLabel.Size = new System.Drawing.Size(154, 26);
+            this.ScoreLabel.Size = new System.Drawing.Size(154, 27);
             this.ScoreLabel.TabIndex = 15;
             this.ScoreLabel.Text = "Расчетный счет";
             // 
             // AddressLabel
             // 
             this.AddressLabel.AutoSize = true;
-            this.AddressLabel.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.AddressLabel.BackColor = System.Drawing.Color.Transparent;
+            this.AddressLabel.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.AddressLabel.Location = new System.Drawing.Point(12, 373);
             this.AddressLabel.Name = "AddressLabel";
-            this.AddressLabel.Size = new System.Drawing.Size(66, 26);
+            this.AddressLabel.Size = new System.Drawing.Size(67, 27);
             this.AddressLabel.TabIndex = 16;
             this.AddressLabel.Text = "Адрес";
             // 
             // OK
             // 
+            this.OK.BackColor = System.Drawing.SystemColors.Window;
             this.OK.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.OK.Location = new System.Drawing.Point(128, 443);
             this.OK.Name = "OK";
             this.OK.Size = new System.Drawing.Size(99, 29);
             this.OK.TabIndex = 17;
             this.OK.Text = "Ок";
-            this.OK.UseVisualStyleBackColor = true;
+            this.OK.UseVisualStyleBackColor = false;
             this.OK.Click += new System.EventHandler(this.button1_Click);
             // 
             // EditPurveyorForm
@@ -179,6 +193,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Menu;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(410, 490);
             this.Controls.Add(this.OK);
             this.Controls.Add(this.AddressLabel);
@@ -194,8 +210,8 @@
             this.Controls.Add(this.PhoneText);
             this.Controls.Add(this.NameText);
             this.Controls.Add(this.InfoLabel);
-            //this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "EditPurveyorForm";
+            this.ShowIcon = false;
             this.Text = "Поставщик";
             this.ResumeLayout(false);
             this.PerformLayout();

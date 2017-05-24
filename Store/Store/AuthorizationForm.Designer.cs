@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AuthorizationForm));
             this.AuthorizationLabel = new System.Windows.Forms.Label();
             this.LoginLabel = new System.Windows.Forms.Label();
             this.PasswordLabel = new System.Windows.Forms.Label();
@@ -44,11 +43,11 @@
             // AuthorizationLabel
             // 
             this.AuthorizationLabel.AutoSize = true;
-            this.AuthorizationLabel.Font = new System.Drawing.Font("Times New Roman", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.AuthorizationLabel.ForeColor = System.Drawing.SystemColors.WindowFrame;
+            this.AuthorizationLabel.Font = new System.Drawing.Font("Comic Sans MS", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.AuthorizationLabel.ForeColor = System.Drawing.SystemColors.Highlight;
             this.AuthorizationLabel.Location = new System.Drawing.Point(63, 35);
             this.AuthorizationLabel.Name = "AuthorizationLabel";
-            this.AuthorizationLabel.Size = new System.Drawing.Size(239, 42);
+            this.AuthorizationLabel.Size = new System.Drawing.Size(254, 51);
             this.AuthorizationLabel.TabIndex = 0;
             this.AuthorizationLabel.Text = "Авторизация";
             this.AuthorizationLabel.Click += new System.EventHandler(this.label1_Click);
@@ -56,31 +55,31 @@
             // LoginLabel
             // 
             this.LoginLabel.AutoSize = true;
-            this.LoginLabel.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.LoginLabel.ForeColor = System.Drawing.SystemColors.WindowFrame;
+            this.LoginLabel.Font = new System.Drawing.Font("Comic Sans MS", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.LoginLabel.ForeColor = System.Drawing.SystemColors.Highlight;
             this.LoginLabel.Location = new System.Drawing.Point(26, 111);
             this.LoginLabel.Name = "LoginLabel";
-            this.LoginLabel.Size = new System.Drawing.Size(97, 32);
+            this.LoginLabel.Size = new System.Drawing.Size(103, 40);
             this.LoginLabel.TabIndex = 1;
             this.LoginLabel.Text = "Логин";
             // 
             // PasswordLabel
             // 
             this.PasswordLabel.AutoSize = true;
-            this.PasswordLabel.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.PasswordLabel.ForeColor = System.Drawing.SystemColors.WindowFrame;
+            this.PasswordLabel.Font = new System.Drawing.Font("Comic Sans MS", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.PasswordLabel.ForeColor = System.Drawing.SystemColors.Highlight;
             this.PasswordLabel.Location = new System.Drawing.Point(26, 180);
             this.PasswordLabel.Name = "PasswordLabel";
-            this.PasswordLabel.Size = new System.Drawing.Size(113, 32);
+            this.PasswordLabel.Size = new System.Drawing.Size(125, 40);
             this.PasswordLabel.TabIndex = 2;
             this.PasswordLabel.Text = "Пароль";
             this.PasswordLabel.Click += new System.EventHandler(this.label3_Click);
             // 
             // LoginText
             // 
-            this.LoginText.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.LoginText.BackColor = System.Drawing.SystemColors.Window;
             this.LoginText.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.LoginText.Location = new System.Drawing.Point(155, 111);
+            this.LoginText.Location = new System.Drawing.Point(155, 119);
             this.LoginText.Multiline = true;
             this.LoginText.Name = "LoginText";
             this.LoginText.Size = new System.Drawing.Size(192, 32);
@@ -89,7 +88,7 @@
             // 
             // PasswordText
             // 
-            this.PasswordText.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.PasswordText.BackColor = System.Drawing.SystemColors.Window;
             this.PasswordText.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.PasswordText.Location = new System.Drawing.Point(155, 180);
             this.PasswordText.Multiline = true;
@@ -102,23 +101,28 @@
             // RememberCheck
             // 
             this.RememberCheck.AutoSize = true;
-            this.RememberCheck.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.RememberCheck.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.RememberCheck.Location = new System.Drawing.Point(93, 245);
+            this.RememberCheck.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.RememberCheck.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.RememberCheck.Location = new System.Drawing.Point(98, 245);
             this.RememberCheck.Name = "RememberCheck";
-            this.RememberCheck.Size = new System.Drawing.Size(165, 25);
+            this.RememberCheck.Size = new System.Drawing.Size(187, 30);
             this.RememberCheck.TabIndex = 5;
             this.RememberCheck.Text = "Запомнить  меня";
             this.RememberCheck.UseVisualStyleBackColor = true;
             // 
             // SignIn
             // 
-            this.SignIn.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.SignIn.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.SignIn.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.SignIn.Location = new System.Drawing.Point(125, 287);
+            this.SignIn.BackColor = System.Drawing.SystemColors.Window;
+            this.SignIn.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.SignIn.FlatAppearance.BorderSize = 0;
+            this.SignIn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.SignIn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.SignIn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SignIn.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.SignIn.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.SignIn.Location = new System.Drawing.Point(121, 281);
             this.SignIn.Name = "SignIn";
-            this.SignIn.Size = new System.Drawing.Size(107, 37);
+            this.SignIn.Size = new System.Drawing.Size(118, 51);
             this.SignIn.TabIndex = 6;
             this.SignIn.Text = "Вход";
             this.SignIn.UseVisualStyleBackColor = false;
@@ -139,7 +143,6 @@
             this.Controls.Add(this.AuthorizationLabel);
             this.ForeColor = System.Drawing.Color.LightSteelBlue;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            //this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AuthorizationForm";
             this.Load += new System.EventHandler(this.AuthorizationForm_Load);
             this.ResumeLayout(false);
