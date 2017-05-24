@@ -105,6 +105,7 @@
             // Add
             // 
             this.Add.BackColor = System.Drawing.SystemColors.Window;
+            this.Add.Cursor = System.Windows.Forms.Cursors.Default;
             this.Add.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Add.Location = new System.Drawing.Point(3, 3);
             this.Add.Name = "Add";
@@ -117,6 +118,7 @@
             // Edit
             // 
             this.Edit.BackColor = System.Drawing.SystemColors.Window;
+            this.Edit.Cursor = System.Windows.Forms.Cursors.Default;
             this.Edit.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Edit.Location = new System.Drawing.Point(3, 39);
             this.Edit.Name = "Edit";
@@ -129,6 +131,7 @@
             // Delete
             // 
             this.Delete.BackColor = System.Drawing.SystemColors.Window;
+            this.Delete.Cursor = System.Windows.Forms.Cursors.Default;
             this.Delete.Dock = System.Windows.Forms.DockStyle.Top;
             this.Delete.Location = new System.Drawing.Point(3, 75);
             this.Delete.Name = "Delete";

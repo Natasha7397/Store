@@ -30,12 +30,14 @@ namespace Store
 
         private void SignIn_Click(object sender, EventArgs e)
         {
+             Hide();
             MainForm mainForm = new MainForm();
             mainForm.StartPosition = FormStartPosition.CenterScreen;
             mainForm.ShowDialog();
+           
             PasswordText.Clear();
             LoginText.Clear();
-            Close();
+            
             
         }
 
