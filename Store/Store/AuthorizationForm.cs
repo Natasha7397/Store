@@ -30,7 +30,7 @@ namespace Store
 
         private void SignIn_Click(object sender, EventArgs e)
         {
-             Hide();
+            Hide();
             MainForm mainForm = new MainForm();
             mainForm.StartPosition = FormStartPosition.CenterScreen;
             mainForm.ShowDialog();
@@ -44,6 +44,13 @@ namespace Store
         private void AuthorizationForm_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void параметрыПодключенияToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ConnectionSettings connetcion = new ConnectionSettings();
+            connetcion.StartPosition = FormStartPosition.CenterScreen;
+            connetcion.ShowDialog();
         }
     }
 }

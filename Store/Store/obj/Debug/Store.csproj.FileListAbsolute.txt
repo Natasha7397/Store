@@ -45,3 +45,7 @@ D:\Store\Store\Store\obj\Debug\Store.Properties.Resources.resources
 D:\Store\Store\Store\obj\Debug\Store.PurveyorForm.resources
 D:\Store\Store\Store\obj\Debug\Store.UserForm.resources
 D:\Store\Store\Store\obj\Debug\Store.csproj.GenerateResource.Cache
+D:\Store\Store\Store\obj\Debug\Store.ConnectionSettings.resources
+D:\Store\Store\Store\obj\Debug\Store.Mail.resources
+D:\Store\Store\Store\bin\Debug\itextsharp.dll
+D:\Store\Store\Store\bin\Debug\itextsharp.xml

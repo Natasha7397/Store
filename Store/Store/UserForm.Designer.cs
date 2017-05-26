@@ -122,12 +122,13 @@
             // 
             // CheckIn
             // 
+            this.CheckIn.FlatAppearance.BorderSize = 0;
             this.CheckIn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.CheckIn.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.CheckIn.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.CheckIn.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.CheckIn.Location = new System.Drawing.Point(128, 255);
+            this.CheckIn.Location = new System.Drawing.Point(120, 261);
             this.CheckIn.Name = "CheckIn";
-            this.CheckIn.Size = new System.Drawing.Size(215, 43);
+            this.CheckIn.Size = new System.Drawing.Size(231, 43);
             this.CheckIn.TabIndex = 7;
             this.CheckIn.Text = "Зарегистрироваться";
             this.CheckIn.UseVisualStyleBackColor = true;

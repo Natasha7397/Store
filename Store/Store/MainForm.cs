@@ -15,12 +15,14 @@ namespace Store
         public MainForm()
         {
             InitializeComponent();
+            this.CenterToScreen();
             productForm = new ProductForm();
             purveyorForm = new PurveyorForm();
             clientForm = new ClientForm();
              chartForm = new ChartForm();
              AForm = new AuthorizationForm();
             userForm = new UserForm();
+            document = new Documents();
            
         }
         ProductForm productForm;
@@ -29,7 +31,7 @@ namespace Store
         ChartForm chartForm;
         AuthorizationForm AForm;
         UserForm userForm;
-       
+        Documents document;
         private void документыToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
@@ -62,7 +64,7 @@ namespace Store
 
         private void выходToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Close();
+            Application.Exit();
         }
 
         private void добавитьПользователяToolStripMenuItem_Click(object sender, EventArgs e)
@@ -74,6 +76,33 @@ namespace Store
         {
             this.Hide();
             AForm.ShowDialog();
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void отправитьНаПочтуToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Mail mail = new Mail();
+            mail.ShowDialog();
+        }
+
+        private void отправитьНаПочтуToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Mail mail = new Mail();
+            mail.ShowDialog();
+        }
+
+        private void сформироватьToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            document.Invoice();
+        }
+
+        private void сформироватьToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            document.packingList();
         }
     }
 }
