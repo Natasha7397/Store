@@ -37,6 +37,10 @@
       <HintPath>..\packages\iTextSharp.5.5.11\lib\itextsharp.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -50,109 +54,112 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AuthorizationForm.cs">
+    <Compile Include="src\control\Reciever.cs" />
+    <Compile Include="src\model\ConnectionParams.cs" />
+    <Compile Include="src\model\Models.cs" />
+    <Compile Include="src\view\AuthorizationForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AuthorizationForm.Designer.cs">
+    <Compile Include="src\view\AuthorizationForm.Designer.cs">
       <DependentUpon>AuthorizationForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="ChartForm.cs">
+    <Compile Include="src\view\ChartForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ChartForm.Designer.cs">
+    <Compile Include="src\view\ChartForm.Designer.cs">
       <DependentUpon>ChartForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="ClientForm.cs">
+    <Compile Include="src\view\ClientForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ClientForm.Designer.cs">
+    <Compile Include="src\view\ClientForm.Designer.cs">
       <DependentUpon>ClientForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="ConnectionSettings.cs">
+    <Compile Include="src\view\ConnectionSettings.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ConnectionSettings.Designer.cs">
+    <Compile Include="src\view\ConnectionSettings.Designer.cs">
       <DependentUpon>ConnectionSettings.cs</DependentUpon>
     </Compile>
-    <Compile Include="Documents.cs" />
-    <Compile Include="EditPurveyorForm.cs">
+    <Compile Include="src\control\Documents.cs" />
+    <Compile Include="src\view\EditPurveyorForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EditPurveyorForm.Designer.cs">
+    <Compile Include="src\view\EditPurveyorForm.Designer.cs">
       <DependentUpon>EditPurveyorForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="EditProductForm.cs">
+    <Compile Include="src\view\EditProductForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EditProductForm.Designer.cs">
+    <Compile Include="src\view\EditProductForm.Designer.cs">
       <DependentUpon>EditProductForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="EditClientForm.cs">
+    <Compile Include="src\view\EditClientForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EditClientForm.Designer.cs">
+    <Compile Include="src\view\EditClientForm.Designer.cs">
       <DependentUpon>EditClientForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Mail.cs">
+    <Compile Include="src\view\Mail.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Mail.Designer.cs">
+    <Compile Include="src\view\Mail.Designer.cs">
       <DependentUpon>Mail.cs</DependentUpon>
     </Compile>
-    <Compile Include="MainForm.cs">
+    <Compile Include="src\view\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainForm.Designer.cs">
+    <Compile Include="src\view\MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="ProductForm.cs">
+    <Compile Include="src\view\ProductForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ProductForm.Designer.cs">
+    <Compile Include="src\view\ProductForm.Designer.cs">
       <DependentUpon>ProductForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="PurveyorForm.cs">
+    <Compile Include="src\view\PurveyorForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PurveyorForm.Designer.cs">
+    <Compile Include="src\view\PurveyorForm.Designer.cs">
       <DependentUpon>PurveyorForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserForm.cs">
+    <Compile Include="src\view\UserForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UserForm.Designer.cs">
+    <Compile Include="src\view\UserForm.Designer.cs">
       <DependentUpon>UserForm.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="AuthorizationForm.resx">
+    <EmbeddedResource Include="src\view\AuthorizationForm.resx">
       <DependentUpon>AuthorizationForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ChartForm.resx">
+    <EmbeddedResource Include="src\view\ChartForm.resx">
       <DependentUpon>ChartForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ClientForm.resx">
+    <EmbeddedResource Include="src\view\ClientForm.resx">
       <DependentUpon>ClientForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ConnectionSettings.resx">
+    <EmbeddedResource Include="src\view\ConnectionSettings.resx">
       <DependentUpon>ConnectionSettings.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="EditPurveyorForm.resx">
+    <EmbeddedResource Include="src\view\EditPurveyorForm.resx">
       <DependentUpon>EditPurveyorForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="EditProductForm.resx">
+    <EmbeddedResource Include="src\view\EditProductForm.resx">
       <DependentUpon>EditProductForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="EditClientForm.resx">
+    <EmbeddedResource Include="src\view\EditClientForm.resx">
       <DependentUpon>EditClientForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Mail.resx">
+    <EmbeddedResource Include="src\view\Mail.resx">
       <DependentUpon>Mail.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainForm.resx">
+    <EmbeddedResource Include="src\view\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ProductForm.resx">
+    <EmbeddedResource Include="src\view\ProductForm.resx">
       <DependentUpon>ProductForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -164,10 +171,10 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="PurveyorForm.resx">
+    <EmbeddedResource Include="src\view\PurveyorForm.resx">
       <DependentUpon>PurveyorForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UserForm.resx">
+    <EmbeddedResource Include="src\view\UserForm.resx">
       <DependentUpon>UserForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
@@ -184,6 +191,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
