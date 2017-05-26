@@ -24,6 +24,7 @@ namespace Store
         private void Add_Click(object sender, EventArgs e)
         {
             editForm.ShowDialog();
+            updateData();
         }
 
         private void Edit_Click(object sender, EventArgs e)

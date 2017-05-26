@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             this.TableProduct = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Add = new System.Windows.Forms.Button();
             this.Edit = new System.Windows.Forms.Button();
             this.Delete = new System.Windows.Forms.Button();
@@ -49,27 +47,12 @@
             this.TableProduct.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.TableProduct.BackgroundColor = System.Drawing.Color.DeepSkyBlue;
             this.TableProduct.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.TableProduct.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2});
             this.TableProduct.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TableProduct.Location = new System.Drawing.Point(3, 3);
             this.TableProduct.Name = "TableProduct";
             this.TableProduct.ReadOnly = true;
             this.TableProduct.Size = new System.Drawing.Size(339, 437);
             this.TableProduct.TabIndex = 0;
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "Наименование";
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Количество";
-            this.Column2.Name = "Column2";
-            this.Column2.ReadOnly = true;
             // 
             // Add
             // 
@@ -81,6 +64,7 @@
             this.Add.TabIndex = 1;
             this.Add.Text = "Добавить";
             this.Add.UseVisualStyleBackColor = false;
+            this.Add.Click += new System.EventHandler(this.Add_Click);
             // 
             // Edit
             // 
@@ -92,6 +76,7 @@
             this.Edit.TabIndex = 2;
             this.Edit.Text = "Редактировать";
             this.Edit.UseVisualStyleBackColor = false;
+            this.Edit.Click += new System.EventHandler(this.Edit_Click);
             // 
             // Delete
             // 
@@ -160,8 +145,6 @@
         #endregion
 
         private System.Windows.Forms.DataGridView TableProduct;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.Button Add;
         private System.Windows.Forms.Button Edit;
         private System.Windows.Forms.Button Delete;

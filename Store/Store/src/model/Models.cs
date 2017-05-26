@@ -14,6 +14,16 @@ namespace Store.src.model
             public T[] body { get; set; }
         }
 
+        public class BasketProduct
+        {
+            [System.ComponentModel.Browsable(false)]
+            public int id { get; set; }
+            [System.ComponentModel.DisplayName("Название")]
+            public string name { get; set; }
+            [System.ComponentModel.DisplayName("Количество")]
+            public int quantity { get; set; }
+        }
+
         public class Transaction
         {
 

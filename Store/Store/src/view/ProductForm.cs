@@ -12,9 +12,12 @@ namespace Store
 {
     public partial class ProductForm : Form
     {
+        private EditProductForm editProduct;
+
         public ProductForm()
         {
             InitializeComponent();
+            editProduct = new EditProductForm();
            this.CenterToScreen();
         }
 
@@ -26,6 +29,16 @@ namespace Store
         private void tableLayoutPanel2_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void Add_Click(object sender, EventArgs e)
+        {
+            editProduct.ShowDialog();
+        }
+
+        private void Edit_Click(object sender, EventArgs e)
+        {
+            editProduct.ShowDialog();
         }
     }
 }
